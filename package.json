@@ -1,0 +1,16 @@
+{
+  "name": "github-pages",
+  "version": "1.0.0",
+  "description": "A static portfolio website for github pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Alper Mehmet Özdemir",
+  "license": "ISC",
+  "homepage": "https://AlperMehmetOzdemir.github.io/mywebsite",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
